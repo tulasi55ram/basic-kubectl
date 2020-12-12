@@ -1,3 +1,5 @@
+### commands.md file all basic commands with following operations
+
 ### CURD Commands
 
 - Create Deployment
@@ -16,3 +18,8 @@
 ### nginx-deployment.yml
 
 - This file contains how to create nginx container using `yml` file
+
+### use configution file for CURD
+
+- Apply a configuration file
+- Delete with configuration file
