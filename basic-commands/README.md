@@ -10,5 +10,5 @@
 
 ### Debugging pods
 
-    - Log to console
-    - Iteractive mode with pod
+- Log to console
+- Iteractive mode with pod
