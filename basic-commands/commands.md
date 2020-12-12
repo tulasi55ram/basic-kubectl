@@ -28,6 +28,35 @@
 
 `minikube status`
 
+### check cluster dashboard
+
+`minikube dashboard`
+
+### kubectl create, edit and get pod detials
+
+`kubectl create -h`
+
+- Give Avaibale commands to create pod
+
+`kubectl create deployment nginx-depl --image=nginx`
+
+- Get nginx latest image from docker
+- kubectl create deployment NAME --image=image
+
+`kubectl get deployment`
+
+- Get deploment status
+
+`kubectl get pod`
+
+- Get pod status
+
+`kubectl edit deployment nginx-depl`
+
+- Edit auto generated yml file of nginx
+- We can increase/decrease replicas
+- We can fix image version etc
+
 ### kubectl commands
 
 `kubectl get nodes`
@@ -36,13 +65,9 @@
 
 `kubectl get services`
 
-`kubectl create deployment nginx-depl --image=nginx`
-
 `kubectl get deployment`
 
 `kubectl get replicaset`
-
-`kubectl edit deployment nginx-depl`
 
 ### debugging
 
