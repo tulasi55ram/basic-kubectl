@@ -12,3 +12,7 @@
 
 - Log to console
 - Iteractive mode with pod
+
+### nginx-deployment.yml
+
+- This file contains how to create nginx container using `yml` file
