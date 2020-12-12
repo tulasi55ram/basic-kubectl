@@ -69,6 +69,8 @@
 
 `kubectl get replicaset`
 
+`kubectl get all`
+
 ### debugging
 
 `kubectl logs {pod-name}`
